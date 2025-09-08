@@ -54,7 +54,7 @@ jobs:
         with:
           repository: ${{ github.repository }}.wiki
       - name: Download artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v5
         with:
           path: ${{ github.workspace }}
       - name: Configure Git

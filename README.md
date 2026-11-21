@@ -17,6 +17,9 @@
   <a href="https://twitter.com/setup_php" title="setup-php twitter"><img alt="setup-php twitter" src="https://img.shields.io/badge/twitter-follow-1DA1F2?logo=twitter&logoColor=1DA1F2&labelColor=555555"></a>
   <a href="https://status.setup-php.com" title="setup-php status"><img alt="setup-php status" src="https://img.shields.io/badge/status-subscribe-28A745?logo=statuspage&logoColor=28A745&labelColor=555555"></a>
 </p>
+<p align="center">
+  <a target="_blank" href="https://namespace.so/github-actions/?utm_source=oss&utm_campaign=setup-php"><img src="https://namespace.so/oss/badge.svg" alt="CI powered by Namespace" height="32" align="middle"></a>
+</p>
 
 Setup PHP with required extensions, php.ini configuration, code-coverage support, and various tools like composer in [GitHub Actions](https://github.com/features/actions "GitHub Actions"). This action gives you a cross-platform interface to set up the PHP environment you need to test your application. Refer to the [Usage](#memo-usage "How to use this") section and [examples](#examples "Examples of use") to see how to use this.
 
@@ -240,7 +243,7 @@ This disables all core and third-party shared extensions and thus, can break som
 
 These tools can be set up globally using the `tools` input. It accepts a string in csv-format.
 
-[`backward-compatibility-check`], [`behat`], [`blackfire`], [`blackfire-player`], [`box`], [`castor`], [`churn`], [`codeception`], [`composer`], [`composer-dependency-analyser`], [`composer-normalize`], [`composer-prefetcher`], [`composer-require-checker`], [`composer-unused`], [`cpx`], [`cs2pr`], [`deployer`], [`ecs`], [`flex`], [`grpc_php_plugin`], [`infection`], [`laravel-cloud`] or [`cloud-cli`], [`mago`], [`name-collision-detector`], [`parallel-lint`], [`pecl`], [`phan`], [`phing`], [`phinx`], [`phive`], [`php-config`], [`php-cs-fixer`], [`php-scoper`], [`phpcbf`], [`phpcpd`], [`phpcs`], [`phpdoc`] or [`phpDocumentor`], [`phpize`], [`phplint`], [`phpmd`], [`phpspec`], [`phpstan`], [`phpunit`], [`phpunit-bridge`], [`phpunit-polyfills`], [`pie`], [`pint`], [`prestissimo`], [`protoc`], [`psalm`], [`rector`], [`symfony`] or [`symfony-cli`], [`vapor`] or [`vapor-cli`], [`wp`] or [`wp-cli`]
+[`backward-compatibility-check`], [`behat`], [`blackfire`], [`blackfire-player`], [`box`], [`castor`], [`churn`], [`codeception`], [`composer`], [`composer-dependency-analyser`], [`composer-normalize`], [`composer-prefetcher`], [`composer-require-checker`], [`composer-unused`], [`cpx`], [`cs2pr`], [`deployer`], [`ecs`], [`flex`], [`grpc_php_plugin`], [`infection`], [`laravel-cloud`] or [`cloud-cli`], [`mago`], [`name-collision-detector`], [`parallel-lint`], [`pecl`], [`phan`], [`phing`], [`phinx`], [`phive`], [`php-config`], [`php-cs-fixer`], [`php-scoper`], [`phpcbf`], [`phpcpd`], [`phpcs`], [`phpdoc`] or [`phpDocumentor`], [`phpize`], [`phplint`], [`phpmd`], [`phpspec`], [`phpstan`], [`phpunit`], [`phpunit-bridge`], [`phpunit-polyfills`], [`pie`], [`pint`], [`prestissimo`], [`protoc`], [`psalm`], [`rector`], [`symfony`] or [`symfony-cli`], [`upsun`] or [`upsun-cli`], [`vapor`] or [`vapor-cli`], [`wp`] or [`wp-cli`]
 
 ```yaml
 - name: Setup PHP with tools
@@ -1057,8 +1060,8 @@ These companies generously provide setup-php their products and services to aid 
 </p>
 
 <p align="center">
-  <a target="_blank" href="https://namespace.so/#gh-light-mode-only"><img src="https://setup-php.com/sponsors/namespace.svg?v=2" alt="Namespace" width="180" align="middle"></a>
-  <a target="_blank" href="https://namespace.so/#gh-dark-mode-only"><img src="https://setup-php.com/sponsors/namespace-white.svg?v=2" alt="Namespace" width="180" align="middle"></a>
+  <a target="_blank" href="https://namespace.so/github-actions/?utm_source=oss&utm_campaign=setup-php#gh-light-mode-only"><img src="https://setup-php.com/sponsors/namespace.svg?v=2" alt="Namespace" width="180" align="middle"></a>
+  <a target="_blank" href="https://namespace.so/github-actions/?utm_source=oss&utm_campaign=setup-php#gh-dark-mode-only"><img src="https://setup-php.com/sponsors/namespace-white.svg?v=2" alt="Namespace" width="180" align="middle"></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a target="_blank" href="https://www.blacksmith.sh/#gh-light-mode-only"><img src="https://setup-php.com/sponsors/blacksmith.svg?v=2" alt="Blacksmith" width="180" align="middle"></a>
   <a target="_blank" href="https://www.blacksmith.sh/#gh-dark-mode-only"><img src="https://setup-php.com/sponsors/blacksmith-white.svg?v=2" alt="Blacksmith" width="180" align="middle"></a>
@@ -1152,6 +1155,8 @@ Many users and organizations support setup-php via [GitHub Sponsors](https://git
 [`rector`]:                   https://getrector.org/
 [`symfony`]:                  https://symfony.com/download
 [`symfony-cli`]:              https://symfony.com/download
+[`upsun`]:                    https://docs.upsun.com/administration/cli.html
+[`upsun-cli`]:                https://docs.upsun.com/administration/cli.html
 [`vapor`]:                    https://docs.vapor.build/
 [`vapor-cli`]:                https://docs.vapor.build/
 [`wp`]:                       https://wp-cli.org/
